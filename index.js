@@ -1,7 +1,7 @@
 const express = require('express');
 const dotenv = require('dotenv');
 const cors = require('cors');
-const mishimoneyRoutes = require('./src/routes/mishimoneyRoutes');
+const mishimoneyRoutes = require('./routes/mishimoney');
 
 // Cargar variables de entorno
 dotenv.config();
